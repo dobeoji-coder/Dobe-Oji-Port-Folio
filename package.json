@@ -2,12 +2,11 @@
   "name": "dobe-portfolio",
   "version": "0.1.0",
   "private": true,
+  {
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
+    "build": "set NEXT_DISABLE_TURBOPACK=1 && next build"
+  }
+}
   "dependencies": {
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
